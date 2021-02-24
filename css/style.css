@@ -45,6 +45,12 @@ body section img{
 
  }
  
+ div table {
+  text-align: center;
+  width: 100%;
+  margin-top: 7%;
+
+ }
  
  table, th, td {
     border: 1px solid black;
@@ -58,4 +64,16 @@ body section img{
   th,td {
 
     padding: 6px;
+  }
+  button
+  {
+      font-size: x-large;
+      display: inline-block;
+      background-color: black;
+      color: blanchedalmond;
+      width: 100px;
+      height: 50px;
+      font-family: fantasy;
+      
+      margin-top: 30px;
   }
