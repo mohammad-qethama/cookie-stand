@@ -1,6 +1,12 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Brygada+1918:wght@700&family=Oswald:wght@300&display=swap');
+
 * {
     box-sizing: border-box;}
 
+hr {border: 10px solid ;}
 body {background-color: salmon;
  font-weight: bold;
  line-height: 1.5; 
@@ -11,13 +17,28 @@ font-size: medium;}
     font-family: monospace;
     font-weight: 40px;
     text-align: center;
+    font-family: 'Alegreya', serif;
+  color: #630707;
 
+ }
+
+ main ul {
+
+  background-color: #9b9ea5;
  }
 body ul h3 {
 
     font-size: 40px;
     font-weight: bolder;
-    font-family: fantasy;
+    /* font-family: font-family: 'Alegreya', serif;
+    
+    font-family: 'Oswald', sans-serif; */
+    
+    font-family: 'Brygada 1918', serif;
+}
+li {
+  font-family: 'Brygada 1918', serif;
+  font-size: 20px;
 
 }
 
@@ -34,11 +55,11 @@ body section img{
     width: 94%;
     height: 440px;
 }
- body ul li a {
+ header ul li a {
 
     font-size: 40px;
     
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fdbc5e;
 
     
 
@@ -49,7 +70,8 @@ body section img{
   text-align: center;
   width: 100%;
   margin-top: 7%;
-
+  font-family: 'Oswald', sans-serif;
+  background-color: #eeeeee;
  }
  
  table, th, td {
